@@ -17,13 +17,7 @@ export default function Hero(){
     return (
       <div className="wraps">
 
-        {/* <div
-          className="d-flex justify-content-center "
-          style={{ backgroundColor: "#7352FF",width:"100%", height: "65vh" , color:"white", fontSize:"30px" , fontFamily:"Sombra", position:"absolute" }}
-        >
-          <p className=" fs-1  " style={{ font:"Sombra", color:"white" ,width:"30rem", justifyContent: "center" }}>Start your day with the goodness of Yoga</p>
-           <p className="title" style={{ width:"20rem"}}> Start your day with the goodness of Yoga </p>
-        </div> */}
+        
 
           <Heroo/>
 
