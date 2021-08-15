@@ -10,7 +10,6 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.0.2",
     "bootstrap-icons": "^1.5.0",
-    "mdbreact": "^5.1.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-beta.4",
     "react-bootstrap-icons": "^1.5.0",
@@ -22,10 +21,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
