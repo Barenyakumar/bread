@@ -7,7 +7,7 @@ export default function Footer(){
 
     return(
         <section style={{backgroundColor:"#7352FF" , height:"25vh",}}>
-            <div className="row justify-content-between">
+            <div className="row justify-content-between" id="info">
                 <div className="col-4 mt-5 ms-3 fw-bold " style={{color:"white"}}><p className=" fs-4" >Powered by bread</p>
                 <button className="btn" style={{color:"white"}}>
                   {" "}
@@ -28,9 +28,9 @@ export default function Footer(){
                 </div>
                 <div className="col-3  mt-5 ms-5" style={{color:"white"}}><span><AiOutlineCopyrightCircle/></span> Bread 2021 All rights reserved
                 <div className="mt-4" >
-                <a href="#" className="btn " style={{color:"white"}}>Privacy</a>
-                <a href="#" className="btn " style={{color:"white"}}>About</a>
-                <a href="#" className="btn " style={{color:"white"}}>Time</a>
+                <a href="#info" className="btn " style={{color:"white"}}>Privacy</a>
+                <a href="#info" className="btn " style={{color:"white"}}>About</a>
+                <a href="#info" className="btn " style={{color:"white"}}>Time</a>
                 </div>
                 
                 </div>

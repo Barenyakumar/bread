@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Container, Row ,Col, Button} from 'react-bootstrap'
 import prof from '../assets/profile.png'
 import { Instagram , Facebook, Youtube, Twitter , Linkedin, GeoAltFill, ChatRightFill} from 'react-bootstrap-icons'
 
@@ -54,7 +53,7 @@ export default function Profile(){
         </div>
 
         {/* 2nd row */}
-        <div className="row mt-4">
+        <div className="row mt-4" id="para">
           <h2>Jane Doe</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
@@ -108,7 +107,7 @@ export default function Profile(){
             </div>
             <div className="col-auto">
               <a
-                href="#"
+                href="#para"
                 className="btn btn-secondary btn-lg disabled btn-sm"
                 tabindex="-1"
                 role="button"
@@ -127,7 +126,7 @@ export default function Profile(){
             </div>
             <div className="col-auto">
               <a
-                href="#"
+                href="#para"
                 className="btn btn-secondary btn-lg disabled btn-sm"
                 tabindex="-1"
                 role="button"
@@ -138,7 +137,7 @@ export default function Profile(){
             </div>
             <div className="col-auto">
               <a
-                href="#"
+                href="#para"
                 className="btn btn-secondary btn-lg disabled btn-sm"
                 tabindex="-1"
                 role="button"
@@ -149,7 +148,7 @@ export default function Profile(){
             </div>
             <div className="col-auto">
               <a
-                href="#"
+                href="#para"
                 className="btn btn-secondary btn-lg disabled btn-sm"
                 tabindex="-1"
                 role="button"

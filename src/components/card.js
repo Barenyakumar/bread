@@ -8,9 +8,7 @@
      const offers =data;
 
      return(
-        //  <div className="d-flex  "
-        //  style={{ backgroundColor: "#ffffff",width:"100%", height: "65vh" , color:"black", fontSize:"30px" , fontFamily:"Sombra", position:"absolute" }}>
-        //   <p className="title" style={{ width:"20rem", marginBottom:"33%" , textAlign:"center"}}> Start your day with the goodness of Yoga</p>
+        
 <Carousel
      
      plugins={[
@@ -52,8 +50,8 @@
   style={{backgroundColor:"#121212" ,}}
 
 >
-{offers.map((offer,offerIndex)=>{
-        const {id,image,day,time} = offer;
+{offers.map((offer)=>{
+        const {image,day,time} = offer;
         return(
             <Card style={{ width: '18rem',marginTop:"3%", }}>
                 <Card.Img variant="top" src={image} />
